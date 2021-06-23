@@ -8,7 +8,7 @@
     "subscription_id": "",
 
     "managed_image_resource_group_name": "packerResourceGroup",
-    "managed_image_name": "windowsImageVM",
+    "managed_image_name": "windowsVMImage",
 
     "os_type": "Windows",
     "image_publisher": "MicrosoftWindowsServer",
