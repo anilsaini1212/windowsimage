@@ -49,7 +49,7 @@ spec:
               sed -i '6 i "client_secret": "$AZURE_CLIENT_SECRET",' windows.json
               sed -i '7 i "tenant_id": "$AZURE_TENANT_ID",' windows.json
               sed -i '8 i "subscription_id": "$AZURE_SUBSCRIPTION_ID",' windows.json
-              cat linux.json
+              cat windows.json
               """
               }
              }
