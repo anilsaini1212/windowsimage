@@ -67,6 +67,13 @@ spec:
         }
        }
       }
+      stage('Approval: Confirm/Abort') {
+        steps {
+          script {
+            def userInput = input(id: 'confirm', message: 'Packer Build?', parameters: [ [$class: 'BooleanParameterDefinition', defaultValue: false, description: 'Packer Build', name: 'confirm'] ])
+          }
+        }
+      }
       stage('Packer build') {
         steps {
           container('packer-cli') {
