@@ -2,10 +2,9 @@
   "builders": [{
     "type": "azure-arm",
 
-    "client_id": "",
-    "client_secret": "",
-    "tenant_id": "",
-    "subscription_id": "",
+    
+    
+    
 
     "managed_image_resource_group_name": "packerResourceGroup",
     "managed_image_name": "windowsVMImage",
