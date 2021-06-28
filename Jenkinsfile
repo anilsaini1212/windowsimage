@@ -62,7 +62,7 @@ spec:
           container('packer-cli') {
 	  script {
             sh """
-            packer validate linux.json
+            packer validate windows.json
             """
           }      
         }
@@ -73,7 +73,7 @@ spec:
           container('packer-cli') {
           script {
 	    sh """
-            packer build linux.json
+            packer build windows.json
             """
           }      
          }
