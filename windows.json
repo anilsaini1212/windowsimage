@@ -23,7 +23,7 @@
     "async_resourcegroup_delete": false,
 
     "azure_tags": {
-        "dept": "Engineering",
+        "dept": "IBMDC",
         "task": "Image deployment"
     },
 
