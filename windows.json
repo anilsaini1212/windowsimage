@@ -19,6 +19,7 @@
     "winrm_insecure": true,
     "winrm_timeout": "10m",
     "winrm_username": "packer",
+    "async_resourcegroup_delete": false,
 
     "azure_tags": {
         "dept": "Engineering",
