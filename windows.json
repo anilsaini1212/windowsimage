@@ -13,6 +13,7 @@
     "image_publisher": "MicrosoftWindowsServer",
     "image_offer": "WindowsServer",
     "image_sku": "2016-Datacenter",
+    "user_data_file": "./SetUpWinRM.ps1",
 
     "communicator": "winrm",
     "winrm_use_ssl": true,
