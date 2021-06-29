@@ -15,11 +15,7 @@
     "image_sku": "2016-Datacenter",
     
 
-    "communicator": "winrm",
-    "winrm_use_ssl": true,
-    "winrm_insecure": true,
-    "winrm_timeout": "5m",
-    "winrm_username": "packer",
+
     "async_resourcegroup_delete": false,
 
     "azure_tags": {
