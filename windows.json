@@ -19,6 +19,7 @@
     "winrm_insecure": true,
     "winrm_timeout": "10m",
     "winrm_username": "packer",
+    "winrm_password": "SuperS3cr3t!!!!",
     "async_resourcegroup_delete": false,
 
     "azure_tags": {
